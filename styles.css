@@ -1,0 +1,72 @@
+body {
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 100px;
+}
+h1 {
+    display: inline;
+    height: 50px;
+    line-height: 50px;
+}
+h2 {
+    text-align: center;
+}
+#header {
+    background-color: #00BCD4;
+    display: flex;
+    align-items: center;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+#header-img {
+    color: white;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+.material-icons.md-48 { 
+    font-size: 48px; 
+}
+#nav-bar {
+    display: flex;
+    margin-left: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+#email {
+    display: block;
+    margin: auto;
+}
+button {
+    display: block;
+    margin: auto;
+}
+h3 {
+    display: inline-block;
+}
+.h3-img {
+    display: inline-block;
+}
+iframe {
+    display: block;
+    margin: auto;
+}
+#purchase-box-container {
+    display: grid;
+}
