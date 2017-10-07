@@ -68,5 +68,12 @@ iframe {
     margin: auto;
 }
 #purchase-box-container {
+    align-items: center;
     display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+}
+.purchase-box {
+    text-align: center;
 }
