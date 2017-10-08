@@ -3,57 +3,102 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<main>
+
+<body>
     <header>
         <div id="header">
             <i class="material-icons md-48" id="header-img">gesture</i>
             <h1>Print Everything</h1>
             <nav id="nav-bar">
                 <ul>
-                    <li><a href="/Features/" class="nav-link">Features</a></li>
-                    <li><a href="/How It Works/" class="nav-link">How It Works</a></li>
-                    <li><a href="/Pricing/" class="nav-link">Pricing</a></li>
+                    <li><a href="#Pricing" class="nav-link">Pricing</a></li>
+                    <li><a href="#How-It-Works" class="nav-link">How It Works</a></li>
+                    <li><a href="#Features" class="nav-link">Features</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
-    <body>
+    <main>
         <h2>Print anything you can imagine</h2>
         <form autocomplete="on" id="form">
             <input id="email" type="email" name="email" placeholder="Enter your email address" size="40" autofocus required>
             <button id="submit" type="submit: https://www.freecodecamp.com/email-submit">Get Started</button>
         </form>
-        <i class="material-icons md-48" class="h3-img">comment</i><h3>World-Class Support</h3><br>
-        <i class="material-icons md-48" class="h3-img">lock</i><h3>Our Quality Guarantee</h3><br>
-        <i class="material-icons md-48" class="h3-img">explore</i><h3>Endless Possibilities</h3><br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/bsKmEQEanHQ" frameborder="0" allowfullscreen></iframe>
-        <div id="purchase-box-container">
-            <div class="purchase-box">
-                MAKERBOT REPLICATOR+<br>
-                $2,499
-
-                <button class="product-select" type="select">Select</button>
+        <section id="Features">
+            <i class="material-icons md-48" class="h3-img">comment</i>
+            <h3>World-Class Support</h3>
+            <p>
+                At MakerBot, we want you to get the most from your MakerBot product and know that your time is best spent innovating and
+                printing. The MakerBot MakerCare Protection Plan provides customers with a faster, even more comprehensive
+                level of support and service that is unrivaled in the desktop 3D printing industry. MakerBot offers MakerCare
+                Preferred Protection Plan and a MakerCare Protection Plan for 1, 2, or 3-years. We also offer renewal plans
+                for 1 year.
+            </p>
+            <i class="material-icons md-48" class="h3-img">lock</i>
+            <h3>Our Quality Guarantee</h3>
+            <p>
+                Everything we make is backed by an unmatched quality guarantee. If your 3D printer fails during normal use within a year
+                of receiving it, our passionate customer service team with make sure you get the replacement you deserve.
+            </p>
+            <i class="material-icons md-48" class="h3-img">explore</i>
+            <h3>Endless Possibilities</h3>
+            <p>
+                If you can imagine it, we can build it together. Look through our extensive training materials or attend a free training
+                session with a certified teacher. Use your 3D printer to make your dream a reality.
+            </p>
+        </section>
+        <section id="How-It-Works">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bsKmEQEanHQ" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section id="Pricing">
+            <div id="purchase-box-container">
+                <div class="purchase-box">
+                    <div class="purchase-box-title">MAKERBOT REPLICATOR+</div>
+                    <div class="purchase-box-subtitle">$2,499</div>
+                    <div class="purchase-box-body">
+                        <ul>
+                            <li>Standardized features for easy and accessible 3D printing</li>
+                            <li>Engineered and tested for greater reliability</li>
+                            <li>Combines with powerful workflow tools to streamline the 3D printing process</li>
+                        </ul>
+                    </div>
+                    <div class="product-select-container">
+                        <button class="product-select" type="select">Select</button>
+                    </div>
+                </div>
+                <div class="purchase-box">
+                    <div class="purchase-box-title">MAKERBOT REPLICATOR MINI+</div>
+                    <div class="purchase-box-subtitle">$1,299</div>
+                    <div class="purchase-box-body">
+                        <ul>
+                            <li>Much quieter printing</li>
+                            <li>Optimized for Makerbot PLA filament</li>
+                            <li>Grip surface and factory leveled</li>
+                        </ul>
+                    </div>
+                    <button class="product-select" type="select">Select</button>
+                </div>
+                <div class="purchase-box">
+                    <div class="purchase-box-title">MAKERBOT REPLICATOR Z18</div>
+                    <div class="purchase-box-subtitle">$6,499</div>
+                    <div class="purchase-box-body">
+                        <ul>
+                            <li>Massive build volume for the professional innovator</li>
+                            <li>Includes the Makerbox Smart Extruder+</li>
+                            <li>Iterate at a fraction of the cost of industrial 3D printers</li>
+                        </ul>
+                    </div>
+                    <button class="product-select" type="select">Select</button>
+                </div>
             </div>
-            <div class="purchase-box">
-                MAKERBOT REPLICATOR MINI+<br>
-                $1,299
-
-                <button class="product-select" type="select">Select</button>
-            </div>
-            <div class="purchase-box">
-                MAKERBOT REPLICATOR Z18<br>
-                $6,499
-
-                <button class="product-select" type="select">Select</button>
-            </div>
-        </div>
-    </body>
+        </section>
+    </main>
     <footer>
-        Created by Shay Meredith for freeCodeCamp.
+        Copyright 2017, Print Everything
     </footer>
-</main>
+</body>
+
 </html>
