@@ -9,14 +9,16 @@ main {
     margin: 100px auto;
 }
 section {
-    padding-top: 80px;
+    padding-top: 60px;
 }
 h1 {
+    color: white;
     display: inline;
-    font-size: 48px;
-    font-style: italic;
-    font-weight: 200;
+    font-family: "Audiowide", serif;
+    font-size: 2.5em;
+    letter-spacing: 2px;
     line-height: 50px;
+    text-shadow: 2px 2px #006064;
 }
 h2 {
     text-align: center;
@@ -34,10 +36,15 @@ h2 {
 #header-img {
     color: white;
     display: inline-block;
+    margin-right: 10px;
+    padding-right: 0px;
     vertical-align: text-bottom;
 }
 .material-icons.md-48 { 
-    font-size: 48px; 
+    font-size: 2.5em;
+    margin-right: 40px; 
+    padding: 24px;
+    vertical-align: top;
 }
 #nav-bar {
     display: flex;
@@ -49,16 +56,13 @@ h2 {
     padding: 0;
     overflow: hidden;
 }
-
 #nav-bar li {
     float: right;
-    margin: 10px 11px 11px 10px;
 }
-
 #nav-bar li a {
     color: black;
     display: block;
-    padding: 8px;
+    padding: .8vw .8vw .8vw .8vw;
     text-decoration: none;
 }
 #nav-bar li a:hover {
@@ -91,11 +95,12 @@ button:hover {
     margin: 10px auto;
     padding: 8px;
 }
-h3 {
-    display: inline-block;
-}
 .h3-img {
     display: inline-block;
+}
+.h3-block {
+    display: inline-block;
+    max-width: 80%;
 }
 iframe {
     display: block;
@@ -120,18 +125,18 @@ iframe {
     margin-top: 23px;
 }*/
 .purchase-box-title {
-    font-size: 24px;
+    font-size: 1.2em;
     height: 15%;
     padding-top: 24px;
 }
 .purchase-box-subtitle {
-    font-size: 24px;
+    font-size: 1.2em;
     height: 10%;
     padding-top: 14px;
     padding-bottom: 24px;
 }
 .purchase-box-body {
-    font-size: 16px;
+    font-size: .8em;
     height: 50%;
 }
 .purchase-box-body ul {
@@ -154,9 +159,51 @@ iframe {
 }
 footer {
     background-color: #00BCD4;
+    height: 100px;
+    margin: 0px -8px -8px -8px;
+    text-align: right;
+    vertical-align: bottom;
+}
+#footer-content {
+    margin: 10px 20px 0px 0px;
+    text-align: right;
+}
+#footer-nav-bar {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    height: 100px;
-    margin: 0px -8px -8px -8px;
+    margin-left: auto;
+}
+#footer-nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#footer-nav-bar li {
+    float: right;
+    margin: 10px 12px 8px 10px;
+}
+#footer-nav-bar li a {
+    color: black;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+#footer-text {
+    margin-right: 20px;
+}
+@media screen and (max-width: 950px) {
+    body {
+        font-size: 2vw;
+    }
+    h1 {
+        font-size: 5vw;
+    }
+    #nav-bar {
+        max-width: 30%;
+    }
+    #nav-bar li a {
+        display: block;
+    }
 }
